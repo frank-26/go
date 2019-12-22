@@ -17,7 +17,12 @@ const (
 	BoilingC      Celsius = 100
 )
 
+
 func (c Celsius) String() string    { return fmt.Sprintf("%g°C", c) }
 func (f Fahrenheit) String() string { return fmt.Sprintf("%g°F", f) }
 
+func main(){
+	// TODO:
+	// fmt.Println(tempconv.CToF(tempconv.BoilingC)) // "212°F"
+}
 //!-
